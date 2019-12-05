@@ -29,7 +29,14 @@ module.exports = {
         use: {
           loader: 'file-loader'
         }
+      },{
+        test:/\.css&/,
+        use:[
+          {loader: 'style-loader'},
+          {loader: 'css-loader'},
+        ]
       }
+
     ]
   }
 };
