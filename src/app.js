@@ -1,7 +1,8 @@
 import React from 'react';
 import './App.css';
+import profile from './assets/Grasiele.png';
 
 function App(){
-  return <h1> Wello Word Mauro Siqueira Jr.</h1>
+  return <img src={profile} />
 }
 export default App;
